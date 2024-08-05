@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.titulo h1 {
+    letter-spacing: 2px;
+    text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.1), -2px 2px 0 rgba(255, 255, 255, 0.1), -3px 3px 0 rgba(255, 255, 255, 0.1), -4px 4px 0 rgba(255, 255, 255, 0.1);
+}
+.texto-home h1 {
+    font-size: 42px;
+}
+.texto-home h3 {
+    font-size: 32px;
+}
+.texto-home p {
+    font-size: 18px;
+}
+
+.img-home {
+    display: flex;
+    align-items: center;
+}
+
+.card-fernando {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-light {
+    display: flex;
+    align-items: center;
+}
+
+.light {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-fernando img{
+    width: 100%;
+}
+
+.bordinha {
+    border-bottom: 2px solid white;
+}
+
+.semantico {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contato i {
+    font-size: 32px;
+}
+.contato p {
+    margin: 0;
+}
+.contato a {
+    color: rgb(156, 156, 156);
+}
+
+@media (max-width: 1400px) {
+    .habilidade-fernando {
+        margin: 5px 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .light {
+        display: flex;
+    }
+}
