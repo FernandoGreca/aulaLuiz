@@ -11,7 +11,9 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
+main {
+    margin-top: 5%;
+}
 
 .titulo h1 {
     letter-spacing: 2px;
@@ -83,6 +85,10 @@
 }
 
 @media (max-width: 992px) {
+    main {
+        margin-top: 17%;
+    }
+
     .light {
         display: flex;
     }
